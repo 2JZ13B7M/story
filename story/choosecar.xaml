@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             
+             x:Class="story.choosecar"
+             Title="choosecar">
+    <VerticalStackLayout  >
+       
+        <Image Source="carrera.jpg" MaximumHeightRequest="100" VerticalOptions="Center" />
+        
+        <Button Text="Porsche Carrera GT" WidthRequest="200" Margin="30" VerticalOptions="Center" BackgroundColor="Grey" HorizontalOptions="Center" Clicked="Button_Clicked_1"     />
+        
+        <Image Source="audi.jpg" MaximumHeightRequest="150" MaximumWidthRequest="100" VerticalOptions="Center" />
+        
+        <Button Text="Audi R8 GT" WidthRequest="200" VerticalOptions="Center" Margin="30" BackgroundColor="Grey" HorizontalOptions="Center" Clicked="Button_Clicked_2"/>
+        
+        <Image Source="gtrs.jpg" MaximumHeightRequest="150" MaximumWidthRequest="100" VerticalOptions="Center" />
+        
+        <Button Text="Porsche 911 GT3 RS" WidthRequest="200" VerticalOptions="Center" Margin="30" BackgroundColor="Grey" HorizontalOptions="Center" Clicked="Button_Clicked"/>
+
+        <Button Text="Back" WidthRequest="200" HorizontalOptions="Center" BackgroundColor="Grey" Clicked="Button_Clicked_3"/>
+
+    </VerticalStackLayout>
+</ContentPage>
